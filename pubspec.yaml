@@ -1,0 +1,27 @@
+name: volna
+description: Волна — музыкальный плеер без рекламы, с офлайн-режимом и переносом плейлистов по ссылке.
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  http: ^1.2.2
+  path_provider: ^2.1.4
+  file_picker: '>=8.0.0 <11.0.0'
+  just_audio: '>=0.9.40 <0.11.0'
+  # Бета-версии подходят под этот диапазон, потому что нижняя граница — бета.
+  just_audio_background: '>=0.0.1-beta.11 <0.0.2'
+  permission_handler: '>=11.3.0 <13.0.0'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: '>=4.0.0 <7.0.0'
+
+flutter:
+  uses-material-design: true
